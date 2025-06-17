@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Venezuelan Exchange Rate App</string>
+    <string name="usd_rate_label">USD Rate:</string>
+    <string name="eur_rate_label">EUR Rate:</string>
+    <string name="usd_rate_format">USD: %.2f</string>
+    <string name="eur_rate_format">EUR: %.2f</string>
+    <string name="convert_button_text">Convert</string>
+    <string name="amount_to_convert_hint">Amount to Convert</string>
+    <string name="converted_amount_hint">Converted Amount</string>
+    <string name="selected_rate_vef_label">Selected Rate (VEF):</string>
+    <string name="view_history_button_text">View History</string>
+    <string name="view_calendar_button_text">View Calendar</string>
+    <string name="official_usd_radio_text">Official USD</string>
+    <string name="official_eur_radio_text">Official EUR</string>
+    <string name="custom_radio_text">Custom</string> <!-- Original for "Custom" RadioButton -->
+    <string name="custom_rate_radio_text">Custom Rate</string> <!-- New for "Custom Rate" RadioButton -->
+    <string name="custom_rate_hint">Enter custom rate</string>
+    <string name="selected_rate_display_format">Rate: %.2f VEF/%s</string>
+    <string name="selected_rate_display_placeholder">Rate: 0.00 VEF/USD</string>
+    <string name="copy_content_description">Copy</string>
+
+    <string-array name="currency_array">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>VEF</item>
+    </string-array>
+
+    <string name="usd_rate_historical_placeholder">USD Rate: N/A</string>
+    <string name="eur_rate_historical_placeholder">EUR Rate: N/A</string>
+    <string name="usd_rate_historical_error">USD Rate: Error</string>
+    <string name="eur_rate_historical_error">EUR Rate: Error</string>
+    <string name="fetch_historical_rates_button">Fetch Rates for Selected Date</string>
+    <string name="title_activity_historical_rates">Historical Rates</string>
+</resources>
